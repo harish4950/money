@@ -3,10 +3,10 @@
  
  	<target name="copy">
 		<copy todir="/var/www/money">
-			<fileset dir="src/*"/>
+			<fileset dir="src/"/>
 		</copy>
 		<copy todir="/var/www/money">
-			<fileset dir="tests/*"/>
+			<fileset dir="tests/"/>
 		</copy>	
 	</target>
  
