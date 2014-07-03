@@ -3,7 +3,7 @@
  
  	<target name="copy">
  	
-		 <sshexec file="src/Money.php"
+		 <scp file="src/Money.php"
 		       todir="chaitanyar@172.20.104.244:/home/chaitanya/Desktop/Chaitanya/Harish" 
 		       keyfile="~/.ssh/id_dsa"
 		       passphrase="Madhya*12"
