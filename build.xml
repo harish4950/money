@@ -2,12 +2,13 @@
 <project name="Money" default="copy">
  
  	<target name="copy">
-		<copy todir="/var/www/money">
-			<fileset dir="src/"/>
-		</copy>
-		<copy todir="/var/www/money">
-			<fileset dir="tests/"/>
-		</copy>	
+ 	
+		 <scp file="src/Money.php"
+		       todir="chaitanyar@172.20.104.244:/home/chaitanya/Desktop/Chaitanya/Harish" 
+		       keyfile="~/.ssh/id_dsa"
+		       passphrase="Madhya*12"
+		  />
+	
 	</target>
  
 </project>
