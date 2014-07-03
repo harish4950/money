@@ -3,11 +3,7 @@
  
  	<target name="copy">
  	
-		 <scp file="src/Money.php"
-		       todir="chaitanyar@172.20.104.244:/home/chaitanya/Desktop/Chaitanya/Harish" 
-		       keyfile="/home/harishwar/.ssh/id_rsa.txt"
-		       passphrase="Madhya*12"
-		  />
+		 
 	
 	</target>
  
